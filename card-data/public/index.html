@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>어썸플로우 게임</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+      <div class="wrap">
+          <p class="maximumRanking">최고기록 : <span></span></p>
+          <p class="nowDate"></p>
+          <a href="#layer2" class="rankingList btn btn--stripe">전체순위보기</a>
+          <div id="wrapper">
+          </div>
+          <div class="right-side">
+              <div class="picture">
+                <img class="displayPic" src="" alt="">
+                <!-- <div class="ester-egg"></div> -->
+              </div>
+              <p class="user-name"></p>
+              <ul class="score">
+                  
+              </ul>
+          </div>
+      </div>  
+      <div class="dim-layer">
+          <div class="dimBg"></div>
+          <div id="layer2" class="pop-layer">
+              <div class="pop-container">
+                  <div class="pop-conts">
+                      <!--content //-->
+                      <p class="main-title">랭킹 리스트</p>
+                      <ul class="rankingUl">
+                          
+                        </ul> 
+      
+                      <div class="btn-r">
+                          <a href="#" class="btn-layerClose close-button"></a>
+                      </div>
+                      <!--// content-->
+                  </div>
+              </div>
+          </div>
+      </div> 
+      <script src="jquery.min.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"></script>
+      <script src="firebase.js"></script>
+      <script src="script.js"></script>
+
+    
+  </body>
+</html>
